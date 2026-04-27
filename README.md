@@ -70,15 +70,13 @@ The architecture is designed for modularity, clean data separation, and performa
 ### Data Ingestion & Caching Strategy
 *Efficiently loading and joining 10k+ rows using Streamlit's robust caching mechanisms.*
 <div align="center">
-  <!-- TODO: Upload code screenshot and replace image path below -->
-  <img src="images/code_snippet_caching.png" alt="Data Caching Code Snippet" width="700"/>
+  <img src="Screenshots/code1%20.png" alt="Data Caching Code Snippet" width="700"/>
 </div>
 
 ### Dynamic UI Rendering
 *Generating dynamic, interactive UI components using custom CSS and Plotly.*
 <div align="center">
-  <!-- TODO: Upload code screenshot and replace image path below -->
-  <img src="images/code_snippet_ui.png" alt="UI Rendering Code Snippet" width="700"/>
+  <img src="Screenshots/code2.png" alt="UI Rendering Code Snippet" width="700"/>
 </div>
 
 ---

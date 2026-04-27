@@ -11,10 +11,10 @@ print("📊 MARKETPLACE DATA EXPLORATION")
 print("=" * 60)
 
 # Load data
-sellers = pd.read_csv('/home/claude/sellers.csv', parse_dates=['join_date'])
-products = pd.read_csv('/home/claude/products.csv', parse_dates=['listing_date'])
-orders = pd.read_csv('/home/claude/orders.csv', parse_dates=['order_date'])
-reviews = pd.read_csv('/home/claude/reviews.csv', parse_dates=['review_date'])
+sellers = pd.read_csv('sellers.csv', parse_dates=['join_date'])
+products = pd.read_csv('products.csv', parse_dates=['listing_date'])
+orders = pd.read_csv('orders.csv', parse_dates=['order_date'])
+reviews = pd.read_csv('reviews.csv', parse_dates=['review_date'])
 
 print(f"\n📦 Dataset Overview:")
 print(f"  Sellers: {len(sellers):,}")
