@@ -10,6 +10,8 @@
 
 **Uncovering non-obvious, actionable insights from e-commerce marketplace data to drive strategic product & growth decisions.**
 
+[🌐 Live Project Demo](https://marketplace-insights-dashboard-3vmpxsc3bmrqxg9ezxqtkg.streamlit.app/) • [💼 Portfolio](https://charan-karthik-nayakanti-14.netlify.app) • [🔗 LinkedIn](https://www.linkedin.com/in/charankarthiknayakanti/) • [🐙 GitHub](https://github.com/mrkarthik14)
+
 </div>
 
 ---
@@ -30,36 +32,33 @@ This project exemplifies **senior-level product analytics and data science** by 
 ### 1. Executive Summary
 *High-level overview of the marketplace's health and primary strategic insights.*
 <div align="center">
-  <!-- TODO: Upload and replace image path -->
-  <img src="images/executive_summary.png" alt="Executive Summary Page" width="800"/>
+  <img src="Screenshots/Marketplace%20Analytics%20Dashboard.png" alt="Executive Summary Page" width="800"/>
 </div>
 
 ### 2. The Platinum Paradox
 *Deep dive into seller tiers and the hidden value of premium sellers.*
 <div align="center">
-  <!-- TODO: Upload and replace image path -->
-  <img src="images/insight_platinum.png" alt="Platinum Paradox Insight Page" width="800"/>
+  <img src="Screenshots/Platinum%20Paradox.png" alt="Platinum Paradox Insight Page" width="800"/>
 </div>
 
 ### 3. The Weekend Effect
 *Analyzing purchasing temporal patterns to optimize marketing spend.*
 <div align="center">
-  <!-- TODO: Upload and replace image path -->
-  <img src="images/insight_weekend.png" alt="Weekend Effect Insight Page" width="800"/>
+  <img src="Screenshots/weekend%20effect.png" alt="Weekend Effect Insight Page" width="800"/>
 </div>
 
 ### 4. The Response Multiplier
 *Understanding the cascading ROI of seller engagement on product ratings.*
 <div align="center">
-  <!-- TODO: Upload and replace image path -->
-  <img src="images/insight_response.png" alt="Response Multiplier Insight Page" width="800"/>
+  <img src="Screenshots/response%20multiplier.png" alt="Response Multiplier Insight Page" width="800"/>
 </div>
 
 ### 5. VIP Customer Opportunity & Shipping Premium
 *Segmentation strategies for maximizing high-LTV customers and fulfillment optimization.*
 <div align="center">
-  <!-- TODO: Upload and replace image path -->
-  <img src="images/insight_vip_shipping.png" alt="VIP & Shipping Insight Page" width="800"/>
+  <img src="Screenshots/VIP%20oppurtinity.png" alt="VIP Insight Page" width="800"/>
+  <br><br>
+  <img src="Screenshots/Shipping%20Premium.png" alt="Shipping Premium Insight Page" width="800"/>
 </div>
 
 ---
@@ -71,22 +70,22 @@ The architecture is designed for modularity, clean data separation, and performa
 ### Data Ingestion & Caching Strategy
 *Efficiently loading and joining 10k+ rows using Streamlit's robust caching mechanisms.*
 <div align="center">
-  <!-- TODO: Upload and replace image path -->
+  <!-- TODO: Upload code screenshot and replace image path below -->
   <img src="images/code_snippet_caching.png" alt="Data Caching Code Snippet" width="700"/>
 </div>
 
 ### Dynamic UI Rendering
 *Generating dynamic, interactive UI components using custom CSS and Plotly.*
 <div align="center">
-  <!-- TODO: Upload and replace image path -->
+  <!-- TODO: Upload code screenshot and replace image path below -->
   <img src="images/code_snippet_ui.png" alt="UI Rendering Code Snippet" width="700"/>
 </div>
 
 ---
 
-## 🔬 Analytical Methodology
+## 🔬 Analytical Methodology & Dataset
 
-1. **Synthetic Data Generation Strategy:** Engineered a complex dataset reflecting real-world distributions (log-normal pricing, Poisson-distributed shipping times) to simulate a live production environment.
+1. **Synthetic Data Generation Strategy:** Engineered a complex dataset reflecting real-world distributions (log-normal pricing, Poisson-distributed shipping times) to simulate a live production environment. The generated `.csv` files are tracked in this repository for reproducibility.
 2. **Exploratory Data Analysis (EDA):** Leveraged Pandas for advanced multi-dimensional aggregation, temporal analysis, and cohort segmentation.
 3. **Insight Distillation:** Filtered noise to identify the top 5 statistically significant patterns.
 4. **Business Translation:** Mapped data correlations to concrete product recommendations, estimating GMV impact via conservative conversion multipliers.
@@ -117,7 +116,7 @@ The analysis uncovered five core levers for growth, projecting an estimated **$5
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/marketplace-insights-dashboard.git
+git clone https://github.com/mrkarthik14/marketplace-insights-dashboard.git
 cd marketplace-insights-dashboard
 
 # 2. Install dependencies (Crucial step to avoid ModuleNotFoundError on Streamlit Cloud)
