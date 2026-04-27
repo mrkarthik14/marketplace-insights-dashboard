@@ -24,12 +24,14 @@ st.markdown("""
 <style>
     .metric-card {
         background-color: #f0f2f6;
+        color: #1f2937;
         padding: 20px;
         border-radius: 10px;
         border-left: 5px solid #1f77b4;
     }
     .insight-box {
         background-color: #e8f4f8;
+        color: #1f2937;
         padding: 15px;
         border-radius: 8px;
         border-left: 4px solid #0066cc;
@@ -37,6 +39,7 @@ st.markdown("""
     }
     .recommendation-box {
         background-color: #f0f8e8;
+        color: #1f2937;
         padding: 15px;
         border-radius: 8px;
         border-left: 4px solid #4CAF50;
